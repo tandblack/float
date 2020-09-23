@@ -1,0 +1,66 @@
+nav, div, p, body, head{
+    padding: 0;
+    margin: 0;
+}
+body    {
+    background-color: wheat;
+}
+#navbar {
+    width: 100%;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    padding: 12px;
+    position: fixed;
+}
+#navbar a   {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 2px;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar span    {
+    color: white;
+    margin-left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+#grandparent    {
+    text-align: center;
+}
+#containerparent    {
+    display: inline-block;
+    margin-top: 75px;
+}
+#container  {
+    background-color: white;
+    border: solid 2px darkgoldenrod;
+    height: 350px;
+    width: 225px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#container h3 {
+    text-align: left;
+    margin-left: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+#container  p   {
+    margin-left: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+.button {
+    background-color: darkgoldenrod;
+    width: 95%;
+    margin-top: 8px;
+    color: white;
+    border: 1px white;
+    padding: 6px;
+    border-radius: 5px;
+}
