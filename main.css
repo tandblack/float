@@ -9,38 +9,39 @@ body    {
     width: 100%;
     background-color: darkgoldenrod;
     margin: 0 auto;
-    padding: 12px;
-    position: fixed;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 #navbar a   {
     color: white;
     text-decoration: none;
-    float: right;
-    padding-right: 2px;
-    margin-right: 40px;
     font-family: 'Montserrat', sans-serif;
+    padding-right: 8px;
+    margin-right: 5px;
 }
 #navbar span    {
     color: white;
     margin-left: 40px;
     font-family: 'Montserrat', sans-serif;
-    float: left;
 }
 #grandparent    {
     text-align: center;
 }
 #containerparent    {
-    display: inline-block;
-    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: wrap;
 }
 #container  {
     background-color: white;
     border: solid 2px darkgoldenrod;
     height: 350px;
     width: 225px;
-    float: left;
-    margin-right: 5px;
     margin-top: 10px;
+    margin-right: 5px;
     margin-left: 5px;
 }
 #container h3 {
